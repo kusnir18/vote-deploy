@@ -14,7 +14,7 @@ spec:
         app: vote-ui
     spec:
       containers:
-      - image: docker.io/xmarkus/vote:latest
+      - image: docker.io/xmarkus/vote:fdf07f3763ee433d7680c5cd67e2ac8e5493edb6
         name: vote-ui
         ports:
         - containerPort: 80
